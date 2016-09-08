@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Rock, Paper, Scissors</title>
+    <link rel='stylesheet' type="text/css" href="assets/stylesheets/bootstrap.css" />
+    <link rel='stylesheet' type="text/css" href="assets/stylesheets/styles.css" />
+    <script type='text/javascript' src="assets/javascripts/jquery-3.1.0.js"></script>
+    <script type='text/javascript' src="assets/javascripts/bootstrap.js"></script>
+    <script type='text/javascript' src="assets/javascripts/app.js"></script>
+  </head>
+  <body class="text-center">
+    <h1 id="rps_header">Rock-Paper-Scissors</h1>
+    <input class="winner-text" type="text" id="name_input" placeholder="Enter your name" />
+
+    <br />
+    <br />
+
+    <button class="btn btn-default" id="show_rules">Rules</button>
+    <br />
+    <div id="rules" class="no-display">
+      <p>Select either Rock, Paper, or Scissors below. The computer will randomly select an option and the winner will be displayed. Good luck!</p>
+    </div>
+    <hr />
+
+    <div class="container">
+      <div>
+        <input type="text" readonly id="winner" />
+      </div>
+      <br />
+      <div class="row">
+        <button id="rock" class="btn btn-large btn-img game_button col-sm-4">Rock</button>
+        <button id="paper" class="btn btn-large btn-img1 game_button col-sm-4">Paper</button>
+        <button id="scissors" class="btn btn-large btn-img2 game_button col-sm-4">Scissors</button>
+      </div>
+      <br />
+      <div class="row">
+        <button id="play_button" class="btn btn-default no-display">Play!</button>
+      </div>
+    </div>
+  </body>
+</html>
